@@ -62,7 +62,7 @@ status_reply_dict = {}
 download_dict = {}
 rss_dict = {}
 
-BOT_TOKEN = environ.get('BOT_TOKEN', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTM4MiwiaXNfYm90Ijp0cnVlLCJhY3RpdmUiOnRydWUsImlhdCI6MTcwMDgwNjk3OCwiZXhwIjoyMzMxOTU4OTc4fQ.1gvSjwRM6N1TG-dH8F2Oai1JfUNA8XfOVNImFF23Hao')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 bot_id = BOT_TOKEN.split('.', 1)[0]
 
